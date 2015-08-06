@@ -1,3 +1,9 @@
+/**
+* Author: Stone <stone@bzline.cn>
+* 2015.8
+*/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
