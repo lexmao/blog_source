@@ -2,7 +2,9 @@
 
 '''
 Created on August 18,2015
-Machine Learning on kNN: k Nearest Neighbors
+
+This is example,using kNN algorithm to deduce
+the developer classification
 
 Input: inX
 Output: the most pooular class label
@@ -24,6 +26,7 @@ if __name__ == '__main__':
     normDataMat,ranges,min =kNN.autoNorm(dataMat)    
 
     #对inX实现归一化
+    #需要分类的程序员的特征矩阵(1x4) [2,3,9,8]
     inX=np.array([2,3,9,8])
     inX =(inX-min)/ranges
 

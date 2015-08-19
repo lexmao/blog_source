@@ -62,7 +62,7 @@ def loadDataFromFile(filename,feature_len):
         classLabelVector.append((listFromLine[-1]))
         row_index +=1    
     
-
+    fr.close()
     return dataMat,classLabelVector 
         
         
