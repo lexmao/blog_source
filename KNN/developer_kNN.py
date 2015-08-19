@@ -1,5 +1,14 @@
-# -*- coding:utf8 -*-
+'''
+Created on August 18,2015
+Machine Learning on kNN: k Nearest Neighbors
 
+Input: inX
+Output: the most pooular class label
+
+@author: Stone <stone@bzline.cn>
+'''
+
+# -*- coding:utf8 -*-
 import numpy as np
 import operator
 import matplotlib
@@ -8,7 +17,6 @@ import matplotlib.pyplot as plt
 
 #归一化数据公式
 #newvalue=(oldvalue-min)/(max-min)
-
 def autoNorm(dataSet):
 
     min = dataSet.min(0)
@@ -106,6 +114,7 @@ if __name__ == '__main__':
     normDataMat,ranges,min =autoNorm(dataMat)    
 
 
+    #对inX实现归一化
     inX=np.array([2,3,9,8])
     inX =(inX-min)/ranges
 
