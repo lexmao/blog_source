@@ -97,7 +97,7 @@ if __name__ == '__main__':
     normDataMat=dataMat
 
     #求解的矩阵 
-    inX =imageToVector('./trainingDigits/1_76.txt') 
+    inX =imageToVector('./testDigits/3_45.txt') 
 
     k=3   
     who =kNN.classify0(inX, normDataMat, labels, k)
